@@ -1,0 +1,31 @@
+{
+  "name": "packageone",
+  "version": "0.0.1",
+  "description": "using lerna",
+  "keywords": [
+    "the",
+    "first",
+    "package"
+  ],
+  "author": "ubashok <ubashok@gmail.com>",
+  "homepage": "https://github.com/ubanupam/glreact#readme",
+  "license": "ISC",
+  "main": "lib/packageOne.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubanupam/glreact.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/packageOne.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ubanupam/glreact/issues"
+  }
+}
